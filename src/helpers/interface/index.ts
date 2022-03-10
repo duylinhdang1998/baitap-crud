@@ -8,6 +8,7 @@ export interface Product {
 
 export interface ListProductsProps extends Product {
   onEditProduct?: () => void;
+  type?: 'product' | 'brand';
 }
 
 export interface Brand {
